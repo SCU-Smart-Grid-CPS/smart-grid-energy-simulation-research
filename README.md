@@ -1,5 +1,7 @@
 # scu_research
-Kaleb Pattawi's Master's thesis at Santa Clara University
+Brian's research & development for a scalable energy and smart-grid simulation.
+
+Forked from a repository for Kaleb Pattawi's Master's thesis at Santa Clara University
 
 The work in this repository will be related to research on developing a scalable method of simulating multiple residential homes.  Using a co-simulation platform (UCEF), multiple EnergyPlus models can be run simultaneously with different controls.  The goal is to optimize controls in homes by predicting energy consumption and using different pricing strategies to minimize cost.
 
