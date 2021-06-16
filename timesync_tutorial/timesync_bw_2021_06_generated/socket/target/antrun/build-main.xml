@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <copy todir="/home/vagrant/Documents/timesync_bw_2021_06_generated/socket/target/conf" overwrite="true">
+    <fileset dir="/home/vagrant/Documents/timesync_bw_2021_06_generated/socket/conf"/>
+  </copy>
+  <copy todir="/home/vagrant/Documents/timesync_bw_2021_06_generated/socket/target" overwrite="true">
+    <fileset file="/home/vagrant/Documents/timesync_bw_2021_06_generated/socket/RTI.rid"/>
+  </copy>
+</target>
+</project>

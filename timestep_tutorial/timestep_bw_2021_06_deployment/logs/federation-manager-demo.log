@@ -1,0 +1,69 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building timesync_bw_2021_06_exec 0.1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.5.0:java (default-cli) @ timesync_bw_2021_06_exec ---
+18:27:10.684 [org.cpswt.host.FederationManagerHostApp.main()] INFO  org.cpswt.hla.FederationManager - No COA definitions were provided!
+18:27:10.688 [org.cpswt.host.FederationManagerHostApp.main()] INFO  org.cpswt.hla.FederationManager - No COA selections were provided!
+18:27:10.688 [org.cpswt.host.FederationManagerHostApp.main()] INFO  org.cpswt.hla.FederationManager - No specific COA-selection was specified for execution!
+18:27:10.688 [org.cpswt.host.FederationManagerHostApp.main()] INFO  org.cpswt.hla.FederationManager - No COAs are used in this experiment.
+
+-------------------------------------------------------------------
+GMS: address=vagrant-23405, cluster=timesync_bw_2021_06, physical address=127.0.0.1:49111
+-------------------------------------------------------------------
+18:27:21.732 [org.cpswt.host.FederationManagerHostApp.main()] INFO  org.cpswt.host.FederationManagerHostApp - Server online at 0.0.0.0:8083 ...
+18:27:55.612 [Thread-3] INFO  org.cpswt.hla.FederationManager - Current_time = 0.0 and step = 1.0 and requested_time = 1.0
+18:27:56.619 [Thread-3] INFO  org.cpswt.hla.FederationManager - Current_time = 1.0 and step = 1.0 and requested_time = 2.0
+18:27:57.625 [Thread-3] INFO  org.cpswt.hla.FederationManager - Current_time = 2.0 and step = 1.0 and requested_time = 3.0
+18:27:58.633 [Thread-3] INFO  org.cpswt.hla.FederationManager - Current_time = 3.0 and step = 1.0 and requested_time = 4.0
+18:27:59.636 [Thread-3] INFO  org.cpswt.hla.FederationManager - Current_time = 4.0 and step = 1.0 and requested_time = 5.0
+18:28:00.640 [Thread-3] INFO  org.cpswt.hla.FederationManager - Current_time = 5.0 and step = 1.0 and requested_time = 6.0
+18:28:01.642 [Thread-3] INFO  org.cpswt.hla.FederationManager - Current_time = 6.0 and step = 1.0 and requested_time = 7.0
+18:28:02.645 [Thread-3] INFO  org.cpswt.hla.FederationManager - Current_time = 7.0 and step = 1.0 and requested_time = 8.0
+18:28:03.648 [Thread-3] INFO  org.cpswt.hla.FederationManager - Current_time = 8.0 and step = 1.0 and requested_time = 9.0
+18:28:04.649 [Thread-3] INFO  org.cpswt.hla.FederationManager - Current_time = 9.0 and step = 1.0 and requested_time = 10.0
+18:28:04.652 [Thread-3] INFO  org.cpswt.hla.FederationManager - Federation manager current time = 10.0
+18:28:05.652 [Thread-3] INFO  org.cpswt.hla.FederationManager - Current_time = 10.0 and step = 1.0 and requested_time = 11.0
+18:28:06.655 [Thread-3] INFO  org.cpswt.hla.FederationManager - Current_time = 11.0 and step = 1.0 and requested_time = 12.0
+18:28:07.657 [Thread-3] INFO  org.cpswt.hla.FederationManager - Current_time = 12.0 and step = 1.0 and requested_time = 13.0
+18:28:08.659 [Thread-3] INFO  org.cpswt.hla.FederationManager - Current_time = 13.0 and step = 1.0 and requested_time = 14.0
+18:28:09.664 [Thread-3] INFO  org.cpswt.hla.FederationManager - Current_time = 14.0 and step = 1.0 and requested_time = 15.0
+18:28:10.666 [Thread-3] INFO  org.cpswt.hla.FederationManager - Current_time = 15.0 and step = 1.0 and requested_time = 16.0
+18:28:11.669 [Thread-3] INFO  org.cpswt.hla.FederationManager - Current_time = 16.0 and step = 1.0 and requested_time = 17.0
+18:28:12.670 [Thread-3] INFO  org.cpswt.hla.FederationManager - Current_time = 17.0 and step = 1.0 and requested_time = 18.0
+18:28:13.678 [Thread-3] INFO  org.cpswt.hla.FederationManager - Current_time = 18.0 and step = 1.0 and requested_time = 19.0
+18:28:14.680 [Thread-3] INFO  org.cpswt.hla.FederationManager - Current_time = 19.0 and step = 1.0 and requested_time = 20.0
+18:28:14.683 [Thread-3] INFO  org.cpswt.hla.FederationManager - Federation manager current time = 20.0
+18:28:15.681 [Thread-3] INFO  org.cpswt.hla.FederationManager - Current_time = 20.0 and step = 1.0 and requested_time = 21.0
+18:28:16.685 [Thread-3] INFO  org.cpswt.hla.FederationManager - Current_time = 21.0 and step = 1.0 and requested_time = 22.0
+18:28:17.687 [Thread-3] INFO  org.cpswt.hla.FederationManager - Current_time = 22.0 and step = 1.0 and requested_time = 23.0
+18:28:18.688 [Thread-3] INFO  org.cpswt.hla.FederationManager - Current_time = 23.0 and step = 1.0 and requested_time = 24.0
+18:28:19.691 [Thread-3] INFO  org.cpswt.hla.FederationManager - Current_time = 24.0 and step = 1.0 and requested_time = 25.0
+18:28:20.693 [Thread-3] INFO  org.cpswt.hla.FederationManager - Current_time = 25.0 and step = 1.0 and requested_time = 26.0
+18:28:21.700 [Thread-3] INFO  org.cpswt.hla.FederationManager - Current_time = 26.0 and step = 1.0 and requested_time = 27.0
+18:28:22.702 [Thread-3] INFO  org.cpswt.hla.FederationManager - Current_time = 27.0 and step = 1.0 and requested_time = 28.0
+18:28:23.707 [Thread-3] INFO  org.cpswt.hla.FederationManager - Current_time = 28.0 and step = 1.0 and requested_time = 29.0
+18:28:24.709 [Thread-3] INFO  org.cpswt.hla.FederationManager - Current_time = 29.0 and step = 1.0 and requested_time = 30.0
+18:28:24.711 [Thread-3] INFO  org.cpswt.hla.FederationManager - Federation manager current time = 30.0
+18:28:25.711 [Thread-3] INFO  org.cpswt.hla.FederationManager - Current_time = 30.0 and step = 1.0 and requested_time = 31.0
+18:28:26.717 [Thread-3] INFO  org.cpswt.hla.FederationManager - Current_time = 31.0 and step = 1.0 and requested_time = 32.0
+18:28:27.718 [Thread-3] INFO  org.cpswt.hla.FederationManager - Current_time = 32.0 and step = 1.0 and requested_time = 33.0
+18:28:28.721 [Thread-3] INFO  org.cpswt.hla.FederationManager - Current_time = 33.0 and step = 1.0 and requested_time = 34.0
+18:28:29.722 [Thread-3] INFO  org.cpswt.hla.FederationManager - Current_time = 34.0 and step = 1.0 and requested_time = 35.0
+18:28:30.724 [Thread-3] INFO  org.cpswt.hla.FederationManager - Current_time = 35.0 and step = 1.0 and requested_time = 36.0
+18:28:31.726 [Thread-3] INFO  org.cpswt.hla.FederationManager - Current_time = 36.0 and step = 1.0 and requested_time = 37.0
+18:28:32.729 [Thread-3] INFO  org.cpswt.hla.FederationManager - Current_time = 37.0 and step = 1.0 and requested_time = 38.0
+18:28:33.732 [Thread-3] INFO  org.cpswt.hla.FederationManager - Current_time = 38.0 and step = 1.0 and requested_time = 39.0
+18:28:34.735 [Thread-3] INFO  org.cpswt.hla.FederationManager - Current_time = 39.0 and step = 1.0 and requested_time = 40.0
+18:28:34.736 [Thread-3] INFO  org.cpswt.hla.FederationManager - Federation manager current time = 40.0
+18:28:35.736 [Thread-3] INFO  org.cpswt.hla.FederationManager - Current_time = 40.0 and step = 1.0 and requested_time = 41.0
+18:28:35.742 [Thread-3] INFO  org.cpswt.hla.FederationManager - Waiting for "control-da7e9a07-acee-4134-9578-ab811b39f948" federate to resign ...
+18:28:35.743 [Thread-3] INFO  org.cpswt.hla.FederationManager - Waiting for "processor-7aa17420-ce7b-44d1-b47c-ac61bc6ec0ba" federate to resign ...
+18:28:35.746 [Thread-3] INFO  org.cpswt.hla.FederationManager - Waiting for "socket-f255e88e-0176-4697-877d-af50378bfb62" federate to resign ...
+18:28:35.747 [Thread-3] INFO  org.cpswt.hla.FederationManager - Waiting for "ReadyToResign" ... 
+18:28:40.027 [Thread-4] INFO  org.cpswt.hla.FederationManager - Simulation terminated
+18:28:40.931 [Thread-3] INFO  org.cpswt.hla.FederationManager - Done with resign
+18:28:40.931 [Thread-3] INFO  org.cpswt.hla.FederationManager - All federates have resigned the federation.  Simulation terminated.
+

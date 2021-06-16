@@ -1,0 +1,4 @@
+org/webgme/guest/processor/processor.class
+org/webgme/guest/processor/processorBase.class
+org/webgme/guest/processor/rti/sockToProc.class
+org/webgme/guest/processor/rti/procToCtrl.class

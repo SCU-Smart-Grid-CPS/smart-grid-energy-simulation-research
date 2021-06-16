@@ -1,0 +1,347 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building timesync_bw_2021_06_exec 0.1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.5.0:java (default-cli) @ timesync_bw_2021_06_exec ---
+
+-------------------------------------------------------------------
+GMS: address=vagrant-11747, cluster=timesync_bw_2021_06, physical address=127.0.0.1:57288
+-------------------------------------------------------------------
+18:01:54.889 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - waiting on readyToPopulate...
+18:01:55.148 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - ...synchronized on readyToPopulate
+18:01:55.148 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - waiting on readyToRun...
+18:01:55.400 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - ...synchronized on readyToRun
+18:01:55.405 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - started logical time progression
+18:01:55.434 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 0.0
+18:01:57.417 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:01:57.417 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:01:57.418 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 1.0
+18:01:59.451 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:01:59.451 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:01:59.453 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 2.0
+18:02:01.495 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:02:01.495 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:02:01.497 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 3.0
+18:02:03.535 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:02:03.535 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:02:03.536 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 4.0
+18:02:05.573 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:02:05.573 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:02:05.574 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 5.0
+18:02:07.618 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:02:07.618 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:02:07.620 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 6.0
+18:02:09.655 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:02:09.657 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:02:09.658 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 7.0
+18:02:11.690 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:02:11.690 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:02:11.691 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 8.0
+18:02:13.735 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:02:13.735 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:02:13.737 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 9.0
+18:02:15.750 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:02:15.753 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:02:15.754 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 10.0
+18:02:17.790 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:02:17.791 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:02:17.793 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 11.0
+18:02:19.820 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:02:19.821 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:02:19.822 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 12.0
+18:02:21.866 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:02:21.867 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:02:21.868 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 13.0
+18:02:23.903 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:02:23.903 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:02:23.905 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 14.0
+18:02:25.952 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:02:25.953 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:02:25.953 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 15.0
+18:02:27.993 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:02:27.994 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:02:27.996 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 16.0
+18:02:30.041 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:02:30.042 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:02:30.043 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 17.0
+18:02:32.090 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:02:32.091 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:02:32.092 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 18.0
+18:02:34.123 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:02:34.123 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:02:34.125 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 19.0
+18:02:36.161 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:02:36.161 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:02:36.163 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 20.0
+18:02:38.227 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:02:38.228 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:02:38.230 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 21.0
+18:02:40.252 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:02:40.252 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:02:40.254 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 22.0
+18:02:42.282 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:02:42.282 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:02:42.284 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 23.0
+18:02:44.308 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:02:44.309 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:02:44.310 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 24.0
+18:02:46.342 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:02:46.342 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:02:46.344 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 25.0
+18:02:48.387 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:02:48.387 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:02:48.388 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 26.0
+18:02:50.422 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:02:50.422 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:02:50.423 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 27.0
+18:02:52.459 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:02:52.460 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:02:52.461 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 28.0
+18:02:54.500 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:02:54.500 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:02:54.501 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 29.0
+18:02:56.547 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:02:56.547 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:02:56.550 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 30.0
+18:02:58.579 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:02:58.579 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:02:58.582 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 31.0
+18:03:00.613 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:03:00.613 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:03:00.614 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 32.0
+18:03:02.645 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:03:02.645 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:03:02.647 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 33.0
+18:03:04.679 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:03:04.681 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:03:04.687 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 34.0
+18:03:06.716 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:03:06.717 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:03:06.718 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 35.0
+18:03:08.756 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:03:08.757 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:03:08.758 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 36.0
+18:03:10.787 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:03:10.789 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:03:10.811 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 37.0
+18:03:12.819 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:03:12.819 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:03:12.820 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 38.0
+18:03:14.863 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:03:14.864 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:03:14.866 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 39.0
+18:03:16.898 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:03:16.898 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:03:16.899 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 40.0
+18:03:18.949 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:03:18.950 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:03:18.950 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 41.0
+18:03:20.985 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:03:20.985 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:03:20.987 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 42.0
+18:03:23.019 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:03:23.020 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:03:23.020 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 43.0
+18:03:25.046 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:03:25.046 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:03:25.048 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 44.0
+18:03:27.071 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:03:27.072 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:03:27.073 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 45.0
+18:03:29.119 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:03:29.120 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:03:29.123 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 46.0
+18:03:31.144 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:03:31.145 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:03:31.145 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 47.0
+18:03:33.182 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:03:33.183 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:03:33.184 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 48.0
+18:03:35.206 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:03:35.207 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:03:35.209 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 49.0
+18:03:37.243 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:03:37.244 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:03:37.245 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 50.0
+18:03:39.286 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:03:39.287 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:03:39.290 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 51.0
+18:03:41.315 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:03:41.315 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:03:41.316 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 52.0
+18:03:43.347 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:03:43.348 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:03:43.349 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 53.0
+18:03:45.383 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:03:45.383 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:03:45.384 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 54.0
+18:03:47.435 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:03:47.435 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:03:47.436 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 55.0
+18:03:49.459 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:03:49.459 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:03:49.461 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 56.0
+18:03:51.505 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:03:51.506 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:03:51.512 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 57.0
+18:03:53.534 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:03:53.534 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:03:53.535 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 58.0
+18:03:55.568 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:03:55.569 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:03:55.570 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 59.0
+18:03:57.596 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:03:57.596 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:03:57.598 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 60.0
+18:03:59.639 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:03:59.639 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:03:59.640 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 61.0
+18:04:01.669 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:04:01.670 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:04:01.671 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 62.0
+18:04:03.703 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:04:03.703 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:04:03.704 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 63.0
+18:04:05.750 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:04:05.750 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:04:05.752 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 64.0
+18:04:07.773 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:04:07.773 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:04:07.774 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 65.0
+18:04:09.813 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:04:09.813 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:04:09.814 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 66.0
+18:04:11.843 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:04:11.843 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:04:11.844 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 67.0
+18:04:13.891 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:04:13.891 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:04:13.893 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 68.0
+18:04:15.926 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:04:15.927 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:04:15.928 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 69.0
+18:04:17.957 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:04:17.958 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:04:17.959 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 70.0
+18:04:19.992 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:04:19.993 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:04:19.996 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 71.0
+18:04:22.032 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:04:22.032 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:04:22.033 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 72.0
+18:04:24.069 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:04:24.070 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:04:24.072 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 73.0
+18:04:26.112 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:04:26.113 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:04:26.114 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 74.0
+18:04:28.142 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:04:28.143 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:04:28.144 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 75.0
+18:04:30.170 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:04:30.171 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:04:30.172 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 76.0
+18:04:32.218 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:04:32.219 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:04:32.220 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 77.0
+18:04:34.254 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:04:34.254 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:04:34.255 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 78.0
+18:04:36.295 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:04:36.295 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:04:36.299 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 79.0
+18:04:38.327 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:04:38.327 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:04:38.329 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 80.0
+18:04:40.368 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:04:40.374 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:04:40.376 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 81.0
+18:04:42.403 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:04:42.404 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:04:42.405 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 82.0
+18:04:44.444 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:04:44.445 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:04:44.447 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 83.0
+18:04:46.483 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:04:46.484 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:04:46.484 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 84.0
+18:04:48.599 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:04:48.599 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:04:48.599 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 85.0
+18:04:50.586 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:04:50.587 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:04:50.588 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 86.0
+18:04:52.633 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:04:52.633 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:04:52.635 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 87.0
+18:04:54.659 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:04:54.659 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:04:54.661 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 88.0
+18:04:56.692 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:04:56.694 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:04:56.695 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 89.0
+18:04:58.731 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:04:58.731 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:04:58.732 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 90.0
+18:05:00.761 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:05:00.761 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:05:00.762 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 91.0
+18:05:02.800 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:05:02.801 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:05:02.803 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 92.0
+18:05:04.838 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:05:04.838 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:05:04.840 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 93.0
+18:05:06.886 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:05:06.886 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:05:06.887 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 94.0
+18:05:08.904 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:05:08.904 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:05:08.905 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 95.0
+18:05:10.939 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:05:10.939 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:05:10.941 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 96.0
+18:05:12.979 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:05:12.980 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:05:12.981 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 97.0
+18:05:15.016 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:05:15.017 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:05:15.017 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 98.0
+18:05:17.051 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:05:17.051 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:05:17.053 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 99.0
+18:05:19.089 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:05:19.090 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:05:19.092 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 100.0
+18:05:21.119 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:05:21.120 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:05:21.120 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 101.0
+18:05:23.163 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:05:23.163 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:05:23.165 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 102.0
+18:05:25.203 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:05:25.203 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:05:25.204 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 103.0
+18:05:27.236 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:05:27.236 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:05:27.237 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 104.0
+18:05:29.277 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:05:29.278 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:05:29.283 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 105.0
+18:05:31.313 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:05:31.313 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:05:31.314 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 106.0
+18:05:33.341 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:05:33.342 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:05:33.343 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 107.0
+18:05:35.390 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:05:35.390 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:05:35.392 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 108.0
+18:05:37.418 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:05:37.419 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:05:37.420 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 109.0
+18:05:39.456 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From socket, fromSock = 0.0,    thruProc = {}
+18:05:39.456 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - From processor, thruProc = 0.0
+18:05:39.457 [org.webgme.guest.socket.socket.main()] INFO  org.webgme.guest.socket.socket - => sent sockTime = 110.0

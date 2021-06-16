@@ -1,0 +1,102 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building timesync_bw_2021_06_exec 0.1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.5.0:java (default-cli) @ timesync_bw_2021_06_exec ---
+
+-------------------------------------------------------------------
+GMS: address=vagrant-6030, cluster=timesync_bw_2021_06, physical address=127.0.0.1:50974
+-------------------------------------------------------------------
+18:27:43.512 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - waiting on readyToPopulate...
+18:27:55.312 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - ...synchronized on readyToPopulate
+18:27:55.313 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - waiting on readyToRun...
+18:27:55.566 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - ...synchronized on readyToRun
+18:27:55.575 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - started logical time progression
+18:27:55.598 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - => sent sockTime = 0.0,    procTime = 0.0
+18:27:55.782 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - From socket, sockTime = 0.0
+18:27:55.782 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - => sent sockTime = 0.0,    procTime = 1.0
+18:27:56.679 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - From socket, sockTime = 1.0
+18:27:56.681 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - => sent sockTime = 1.0,    procTime = 2.0
+18:27:57.677 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - From socket, sockTime = 2.0
+18:27:57.688 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - => sent sockTime = 2.0,    procTime = 3.0
+18:27:58.714 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - From socket, sockTime = 3.0
+18:27:58.716 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - => sent sockTime = 3.0,    procTime = 4.0
+18:27:59.695 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - From socket, sockTime = 4.0
+18:27:59.697 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - => sent sockTime = 4.0,    procTime = 5.0
+18:28:00.696 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - From socket, sockTime = 5.0
+18:28:00.701 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - => sent sockTime = 5.0,    procTime = 6.0
+18:28:01.693 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - From socket, sockTime = 6.0
+18:28:01.695 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - => sent sockTime = 6.0,    procTime = 7.0
+18:28:02.715 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - From socket, sockTime = 7.0
+18:28:02.716 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - => sent sockTime = 7.0,    procTime = 8.0
+18:28:03.703 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - From socket, sockTime = 8.0
+18:28:03.705 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - => sent sockTime = 8.0,    procTime = 9.0
+18:28:04.704 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - From socket, sockTime = 9.0
+18:28:04.706 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - => sent sockTime = 9.0,    procTime = 10.0
+18:28:05.704 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - From socket, sockTime = 10.0
+18:28:05.705 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - => sent sockTime = 10.0,    procTime = 11.0
+18:28:06.710 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - From socket, sockTime = 11.0
+18:28:06.711 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - => sent sockTime = 11.0,    procTime = 12.0
+18:28:07.717 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - From socket, sockTime = 12.0
+18:28:07.719 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - => sent sockTime = 12.0,    procTime = 13.0
+18:28:08.711 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - From socket, sockTime = 13.0
+18:28:08.712 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - => sent sockTime = 13.0,    procTime = 14.0
+18:28:09.721 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - From socket, sockTime = 14.0
+18:28:09.724 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - => sent sockTime = 14.0,    procTime = 15.0
+18:28:10.717 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - From socket, sockTime = 15.0
+18:28:10.720 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - => sent sockTime = 15.0,    procTime = 16.0
+18:28:11.725 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - From socket, sockTime = 16.0
+18:28:11.727 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - => sent sockTime = 16.0,    procTime = 17.0
+18:28:12.731 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - From socket, sockTime = 17.0
+18:28:12.732 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - => sent sockTime = 17.0,    procTime = 18.0
+18:28:13.747 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - From socket, sockTime = 18.0
+18:28:13.749 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - => sent sockTime = 18.0,    procTime = 19.0
+18:28:14.734 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - From socket, sockTime = 19.0
+18:28:14.737 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - => sent sockTime = 19.0,    procTime = 20.0
+18:28:15.738 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - From socket, sockTime = 20.0
+18:28:15.741 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - => sent sockTime = 20.0,    procTime = 21.0
+18:28:16.731 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - From socket, sockTime = 21.0
+18:28:16.735 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - => sent sockTime = 21.0,    procTime = 22.0
+18:28:17.738 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - From socket, sockTime = 22.0
+18:28:17.739 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - => sent sockTime = 22.0,    procTime = 23.0
+18:28:18.744 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - From socket, sockTime = 23.0
+18:28:18.745 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - => sent sockTime = 23.0,    procTime = 24.0
+18:28:19.742 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - From socket, sockTime = 24.0
+18:28:19.743 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - => sent sockTime = 24.0,    procTime = 25.0
+18:28:20.747 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - From socket, sockTime = 25.0
+18:28:20.748 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - => sent sockTime = 25.0,    procTime = 26.0
+18:28:21.751 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - From socket, sockTime = 26.0
+18:28:21.752 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - => sent sockTime = 26.0,    procTime = 27.0
+18:28:22.760 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - From socket, sockTime = 27.0
+18:28:22.761 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - => sent sockTime = 27.0,    procTime = 28.0
+18:28:23.756 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - From socket, sockTime = 28.0
+18:28:23.760 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - => sent sockTime = 28.0,    procTime = 29.0
+18:28:24.763 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - From socket, sockTime = 29.0
+18:28:24.764 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - => sent sockTime = 29.0,    procTime = 30.0
+18:28:25.774 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - From socket, sockTime = 30.0
+18:28:25.776 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - => sent sockTime = 30.0,    procTime = 31.0
+18:28:26.774 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - From socket, sockTime = 31.0
+18:28:26.776 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - => sent sockTime = 31.0,    procTime = 32.0
+18:28:27.779 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - From socket, sockTime = 32.0
+18:28:27.781 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - => sent sockTime = 32.0,    procTime = 33.0
+18:28:28.771 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - From socket, sockTime = 33.0
+18:28:28.773 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - => sent sockTime = 33.0,    procTime = 34.0
+18:28:29.779 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - From socket, sockTime = 34.0
+18:28:29.780 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - => sent sockTime = 34.0,    procTime = 35.0
+18:28:30.783 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - From socket, sockTime = 35.0
+18:28:30.785 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - => sent sockTime = 35.0,    procTime = 36.0
+18:28:31.775 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - From socket, sockTime = 36.0
+18:28:31.776 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - => sent sockTime = 36.0,    procTime = 37.0
+18:28:32.778 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - From socket, sockTime = 37.0
+18:28:32.779 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - => sent sockTime = 37.0,    procTime = 38.0
+18:28:33.786 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - From socket, sockTime = 38.0
+18:28:33.788 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - => sent sockTime = 38.0,    procTime = 39.0
+18:28:34.781 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - From socket, sockTime = 39.0
+18:28:34.782 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - => sent sockTime = 39.0,    procTime = 40.0
+18:28:35.794 [org.webgme.guest.processor.processor.main()] INFO  org.cpswt.hla.SynchronizedFederate - processor-7aa17420-ce7b-44d1-b47c-ac61bc6ec0ba: SimEnd interaction received, exiting...
+18:28:35.795 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - From socket, sockTime = 40.0
+18:28:35.797 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - => sent sockTime = 40.0,    procTime = 41.0
+18:28:35.797 [org.webgme.guest.processor.processor.main()] INFO  org.cpswt.hla.SynchronizedFederate - Exiting gracefully ....
+18:28:40.834 [org.webgme.guest.processor.processor.main()] INFO  org.webgme.guest.processor.processor - Done.

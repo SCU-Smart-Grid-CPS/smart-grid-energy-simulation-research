@@ -1,0 +1,35 @@
+{
+  "federateTypesAllowed": [
+    "control",
+    "processor",
+    "socket"
+  ],
+  "expectedFederates": [
+    {
+      "federateType": "control",
+      "count": 1
+    },
+    {
+      "federateType": "processor",
+      "count": 1
+    },
+    {
+      "federateType": "socket",
+      "count": 1
+    }
+  ],
+  "lateJoinerFederates": [
+    {
+      "federateType": "control",
+      "count": 0
+    },
+    {
+      "federateType": "processor",
+      "count": 0
+    },
+    {
+      "federateType": "socket",
+      "count": 0
+    }
+  ]
+}

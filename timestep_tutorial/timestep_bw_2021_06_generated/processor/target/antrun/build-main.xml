@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <copy todir="/home/vagrant/Documents/timestep_tutorial/timestep_bw_2021_06_generated/processor/target/conf" overwrite="true">
+    <fileset dir="/home/vagrant/Documents/timestep_tutorial/timestep_bw_2021_06_generated/processor/conf"/>
+  </copy>
+  <copy todir="/home/vagrant/Documents/timestep_tutorial/timestep_bw_2021_06_generated/processor/target" overwrite="true">
+    <fileset file="/home/vagrant/Documents/timestep_tutorial/timestep_bw_2021_06_generated/processor/RTI.rid"/>
+  </copy>
+</target>
+</project>

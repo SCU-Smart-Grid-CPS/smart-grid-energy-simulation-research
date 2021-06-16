@@ -1,0 +1,143 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building timesync_bw_2021_06_exec 0.1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.5.0:java (default-cli) @ timesync_bw_2021_06_exec ---
+
+-------------------------------------------------------------------
+GMS: address=vagrant-59052, cluster=timesync_bw_2021_06, physical address=127.0.0.1:48018
+-------------------------------------------------------------------
+18:27:33.305 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - waiting on readyToPopulate...
+18:27:55.320 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - ...synchronized on readyToPopulate
+18:27:55.320 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - waiting on readyToRun...
+18:27:55.572 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - ...synchronized on readyToRun
+18:27:55.583 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - started logical time progression
+18:27:55.601 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - => Sent elapsedTimeSock = 0.0,    elapsedTimeProc = 0.0,    ctrlTime = 0.0
+18:27:55.763 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From processor, sockTimeP = 0.0   procTime = 0.0
+18:27:55.764 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From socket, sockTime = 0.0
+18:27:55.766 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - => Sent elapsedTimeSock = 1.0,    elapsedTimeProc = 1.0,    ctrlTime = 1.0
+18:27:56.683 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From socket, sockTime = 1.0
+18:27:56.683 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From processor, sockTimeP = 0.0   procTime = 1.0
+18:27:56.685 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - => Sent elapsedTimeSock = 1.0,    elapsedTimeProc = 1.0,    ctrlTime = 2.0
+18:27:57.679 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From processor, sockTimeP = 1.0   procTime = 2.0
+18:27:57.680 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From socket, sockTime = 2.0
+18:27:57.686 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - => Sent elapsedTimeSock = 1.0,    elapsedTimeProc = 1.0,    ctrlTime = 3.0
+18:27:58.687 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From socket, sockTime = 3.0
+18:27:58.687 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From processor, sockTimeP = 2.0   procTime = 3.0
+18:27:58.701 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - => Sent elapsedTimeSock = 1.0,    elapsedTimeProc = 1.0,    ctrlTime = 4.0
+18:27:59.689 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From socket, sockTime = 4.0
+18:27:59.690 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From processor, sockTimeP = 3.0   procTime = 4.0
+18:27:59.691 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - => Sent elapsedTimeSock = 1.0,    elapsedTimeProc = 1.0,    ctrlTime = 5.0
+18:28:00.708 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From socket, sockTime = 5.0
+18:28:00.709 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From processor, sockTimeP = 4.0   procTime = 5.0
+18:28:00.711 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - => Sent elapsedTimeSock = 1.0,    elapsedTimeProc = 1.0,    ctrlTime = 6.0
+18:28:01.693 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From socket, sockTime = 6.0
+18:28:01.695 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From processor, sockTimeP = 5.0   procTime = 6.0
+18:28:01.698 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - => Sent elapsedTimeSock = 1.0,    elapsedTimeProc = 1.0,    ctrlTime = 7.0
+18:28:02.705 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From processor, sockTimeP = 6.0   procTime = 7.0
+18:28:02.706 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From socket, sockTime = 7.0
+18:28:02.707 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - => Sent elapsedTimeSock = 1.0,    elapsedTimeProc = 1.0,    ctrlTime = 8.0
+18:28:03.701 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From socket, sockTime = 8.0
+18:28:03.702 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From processor, sockTimeP = 7.0   procTime = 8.0
+18:28:03.706 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - => Sent elapsedTimeSock = 1.0,    elapsedTimeProc = 1.0,    ctrlTime = 9.0
+18:28:04.704 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From processor, sockTimeP = 8.0   procTime = 9.0
+18:28:04.705 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From socket, sockTime = 9.0
+18:28:04.713 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - => Sent elapsedTimeSock = 1.0,    elapsedTimeProc = 1.0,    ctrlTime = 10.0
+18:28:05.708 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From processor, sockTimeP = 9.0   procTime = 10.0
+18:28:05.711 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From socket, sockTime = 10.0
+18:28:05.713 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - => Sent elapsedTimeSock = 1.0,    elapsedTimeProc = 1.0,    ctrlTime = 11.0
+18:28:06.704 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From processor, sockTimeP = 10.0   procTime = 11.0
+18:28:06.705 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From socket, sockTime = 11.0
+18:28:06.708 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - => Sent elapsedTimeSock = 1.0,    elapsedTimeProc = 1.0,    ctrlTime = 12.0
+18:28:07.711 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From socket, sockTime = 12.0
+18:28:07.711 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From processor, sockTimeP = 11.0   procTime = 12.0
+18:28:07.713 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - => Sent elapsedTimeSock = 1.0,    elapsedTimeProc = 1.0,    ctrlTime = 13.0
+18:28:08.719 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From socket, sockTime = 13.0
+18:28:08.720 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From processor, sockTimeP = 12.0   procTime = 13.0
+18:28:08.722 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - => Sent elapsedTimeSock = 1.0,    elapsedTimeProc = 1.0,    ctrlTime = 14.0
+18:28:09.721 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From processor, sockTimeP = 13.0   procTime = 14.0
+18:28:09.723 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From socket, sockTime = 14.0
+18:28:09.725 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - => Sent elapsedTimeSock = 1.0,    elapsedTimeProc = 1.0,    ctrlTime = 15.0
+18:28:10.715 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From socket, sockTime = 15.0
+18:28:10.716 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From processor, sockTimeP = 14.0   procTime = 15.0
+18:28:10.718 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - => Sent elapsedTimeSock = 1.0,    elapsedTimeProc = 1.0,    ctrlTime = 16.0
+18:28:11.735 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From processor, sockTimeP = 15.0   procTime = 16.0
+18:28:11.736 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From socket, sockTime = 16.0
+18:28:11.738 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - => Sent elapsedTimeSock = 1.0,    elapsedTimeProc = 1.0,    ctrlTime = 17.0
+18:28:12.741 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From socket, sockTime = 17.0
+18:28:12.743 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From processor, sockTimeP = 16.0   procTime = 17.0
+18:28:12.745 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - => Sent elapsedTimeSock = 1.0,    elapsedTimeProc = 1.0,    ctrlTime = 18.0
+18:28:13.728 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From socket, sockTime = 18.0
+18:28:13.729 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From processor, sockTimeP = 17.0   procTime = 18.0
+18:28:13.731 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - => Sent elapsedTimeSock = 1.0,    elapsedTimeProc = 1.0,    ctrlTime = 19.0
+18:28:14.729 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From socket, sockTime = 19.0
+18:28:14.729 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From processor, sockTimeP = 18.0   procTime = 19.0
+18:28:14.730 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - => Sent elapsedTimeSock = 1.0,    elapsedTimeProc = 1.0,    ctrlTime = 20.0
+18:28:15.730 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From socket, sockTime = 20.0
+18:28:15.731 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From processor, sockTimeP = 19.0   procTime = 20.0
+18:28:15.732 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - => Sent elapsedTimeSock = 1.0,    elapsedTimeProc = 1.0,    ctrlTime = 21.0
+18:28:16.737 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From processor, sockTimeP = 20.0   procTime = 21.0
+18:28:16.738 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From socket, sockTime = 21.0
+18:28:16.741 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - => Sent elapsedTimeSock = 1.0,    elapsedTimeProc = 1.0,    ctrlTime = 22.0
+18:28:17.740 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From socket, sockTime = 22.0
+18:28:17.740 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From processor, sockTimeP = 21.0   procTime = 22.0
+18:28:17.742 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - => Sent elapsedTimeSock = 1.0,    elapsedTimeProc = 1.0,    ctrlTime = 23.0
+18:28:18.735 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From processor, sockTimeP = 22.0   procTime = 23.0
+18:28:18.736 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From socket, sockTime = 23.0
+18:28:18.738 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - => Sent elapsedTimeSock = 1.0,    elapsedTimeProc = 1.0,    ctrlTime = 24.0
+18:28:19.738 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From socket, sockTime = 24.0
+18:28:19.738 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From processor, sockTimeP = 23.0   procTime = 24.0
+18:28:19.739 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - => Sent elapsedTimeSock = 1.0,    elapsedTimeProc = 1.0,    ctrlTime = 25.0
+18:28:20.747 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From socket, sockTime = 25.0
+18:28:20.748 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From processor, sockTimeP = 24.0   procTime = 25.0
+18:28:20.749 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - => Sent elapsedTimeSock = 1.0,    elapsedTimeProc = 1.0,    ctrlTime = 26.0
+18:28:21.757 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From processor, sockTimeP = 25.0   procTime = 26.0
+18:28:21.758 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From socket, sockTime = 26.0
+18:28:21.759 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - => Sent elapsedTimeSock = 1.0,    elapsedTimeProc = 1.0,    ctrlTime = 27.0
+18:28:22.765 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From processor, sockTimeP = 26.0   procTime = 27.0
+18:28:22.765 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From socket, sockTime = 27.0
+18:28:22.767 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - => Sent elapsedTimeSock = 1.0,    elapsedTimeProc = 1.0,    ctrlTime = 28.0
+18:28:23.754 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From socket, sockTime = 28.0
+18:28:23.755 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From processor, sockTimeP = 27.0   procTime = 28.0
+18:28:23.757 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - => Sent elapsedTimeSock = 1.0,    elapsedTimeProc = 1.0,    ctrlTime = 29.0
+18:28:24.756 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From processor, sockTimeP = 28.0   procTime = 29.0
+18:28:24.757 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From socket, sockTime = 29.0
+18:28:24.758 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - => Sent elapsedTimeSock = 1.0,    elapsedTimeProc = 1.0,    ctrlTime = 30.0
+18:28:25.774 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From processor, sockTimeP = 29.0   procTime = 30.0
+18:28:25.775 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From socket, sockTime = 30.0
+18:28:25.777 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - => Sent elapsedTimeSock = 1.0,    elapsedTimeProc = 1.0,    ctrlTime = 31.0
+18:28:26.768 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From socket, sockTime = 31.0
+18:28:26.769 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From processor, sockTimeP = 30.0   procTime = 31.0
+18:28:26.770 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - => Sent elapsedTimeSock = 1.0,    elapsedTimeProc = 1.0,    ctrlTime = 32.0
+18:28:27.767 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From socket, sockTime = 32.0
+18:28:27.768 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From processor, sockTimeP = 31.0   procTime = 32.0
+18:28:27.769 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - => Sent elapsedTimeSock = 1.0,    elapsedTimeProc = 1.0,    ctrlTime = 33.0
+18:28:28.776 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From socket, sockTime = 33.0
+18:28:28.777 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From processor, sockTimeP = 32.0   procTime = 33.0
+18:28:28.779 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - => Sent elapsedTimeSock = 1.0,    elapsedTimeProc = 1.0,    ctrlTime = 34.0
+18:28:29.780 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From socket, sockTime = 34.0
+18:28:29.781 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From processor, sockTimeP = 33.0   procTime = 34.0
+18:28:29.782 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - => Sent elapsedTimeSock = 1.0,    elapsedTimeProc = 1.0,    ctrlTime = 35.0
+18:28:30.780 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From socket, sockTime = 35.0
+18:28:30.781 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From processor, sockTimeP = 34.0   procTime = 35.0
+18:28:30.783 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - => Sent elapsedTimeSock = 1.0,    elapsedTimeProc = 1.0,    ctrlTime = 36.0
+18:28:31.795 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From socket, sockTime = 36.0
+18:28:31.798 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From processor, sockTimeP = 35.0   procTime = 36.0
+18:28:31.799 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - => Sent elapsedTimeSock = 1.0,    elapsedTimeProc = 1.0,    ctrlTime = 37.0
+18:28:32.776 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From processor, sockTimeP = 36.0   procTime = 37.0
+18:28:32.786 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From socket, sockTime = 37.0
+18:28:32.792 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - => Sent elapsedTimeSock = 1.0,    elapsedTimeProc = 1.0,    ctrlTime = 38.0
+18:28:33.780 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From processor, sockTimeP = 37.0   procTime = 38.0
+18:28:33.781 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From socket, sockTime = 38.0
+18:28:33.782 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - => Sent elapsedTimeSock = 1.0,    elapsedTimeProc = 1.0,    ctrlTime = 39.0
+18:28:34.784 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From processor, sockTimeP = 38.0   procTime = 39.0
+18:28:34.784 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From socket, sockTime = 39.0
+18:28:34.784 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - => Sent elapsedTimeSock = 1.0,    elapsedTimeProc = 1.0,    ctrlTime = 40.0
+18:28:35.783 [org.webgme.guest.control.control.main()] INFO  org.cpswt.hla.SynchronizedFederate - control-da7e9a07-acee-4134-9578-ab811b39f948: SimEnd interaction received, exiting...
+18:28:35.784 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From processor, sockTimeP = 39.0   procTime = 40.0
+18:28:35.784 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - From socket, sockTime = 40.0
+18:28:35.785 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - => Sent elapsedTimeSock = 1.0,    elapsedTimeProc = 1.0,    ctrlTime = 41.0
+18:28:35.785 [org.webgme.guest.control.control.main()] INFO  org.cpswt.hla.SynchronizedFederate - Exiting gracefully ....
+18:28:40.875 [org.webgme.guest.control.control.main()] INFO  org.webgme.guest.control.control - Done.
