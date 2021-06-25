@@ -1,5 +1,7 @@
 # Smart Grid Energy Simulation Research
-Research & development for a scalable energy and smart-grid simulation. This repository contains the base code required to connect Energy Plus to UCEF via the FMU, do multiple simulations in https://github.com/SCU-Smart-Grid-CPS/ep-multiple-sims, the basic optimization in https://github.com/SCU-Smart-Grid-CPS/TwoFedEPOpt, and some tutorials. 
+Research & development for a scalable energy and smart-grid simulation. This repository contains the base code required to connect Energy Plus to UCEF via the FMU, do multiple simulations in https://github.com/SCU-Smart-Grid-CPS/ep-multiple-sims, the basic optimization in https://github.com/SCU-Smart-Grid-CPS/TwoFedEPOpt, and UCEF tutorials in the Tutorials branch https://github.com/SCU-Smart-Grid-CPS/smart-grid-energy-simulation-research/tree/Tutorials.
+
+The Wiki has instructions for using UCEF and EP. https://github.com/SCU-Smart-Grid-CPS/smart-grid-energy-simulation-research/wiki
 
 Forked from a repository for Kaleb Pattawi's Master's thesis at Santa Clara University
 
