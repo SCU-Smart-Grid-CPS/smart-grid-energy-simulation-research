@@ -3,7 +3,6 @@
  * Project:	timesync demo
  * Author:  Brian Woo-Shem
  * Date:	2021-06-16
- * Owner:	Created using resources from Santa Clara University School of Engineering and NIST
  * Purpose:	Control federate code in timesync demo simulation
  */
 
